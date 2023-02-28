@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>introdução ao CSS</title>
+</head>
+<body>
+
+    <h2>Sintaxe</h2>
+
+    <p>Um documento CSS consiste em seletores que descrevem quais elementos e como eles serão modificados. Começamos descrvendo qual elementos queremos modificar no <strong>seletor</strong>, depois adicionamos <strong>atributos</strong> e o seu <strong>valor</strong></p>
+
+    <pre>
+        <code>
+            Seletor {
+            atributo: valor;
+            }
+        </code>
+    </pre>
+    
+    <h2>Tipos de Seletores</h2>
+
+    <p>Estilo diretamente no alemento do HTML</p>
+
+    <pre>
+        &lt;p&gt;Olá mundo&lt;/p&gt;
+
+        p{
+        color:#f05a20;
+        }
+    </pre>
+
+    <p>Podemos usar um ID no elemento. Interessante usar em elementos que não vão se repetir.</p>
+
+    <pre>
+        &lt;p id="sobre"&gt;Olá mundo&lt;/p&gt;
+
+        #sobre{
+        color:#f05a20;
+        }
+    </pre>
+
+    <p>Podemos usar um classe no elemento. Interessante usar em elementos que vão se repetir na página.</p>
+
+    <pre>
+        &lt;p class="sobre"&gt;Olá mundo&lt;/p&gt;
+
+        .sobre{
+        color:#f05a20;
+        }
+    </pre>
+</body>
+</html>
